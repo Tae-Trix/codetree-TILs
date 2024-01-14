@@ -1,5 +1,6 @@
 arr = input()
-area = int(arr)*int(arr)
+n = int(arr)
+area = n * n
 print(area)
-if area<5:
+if n<5:
     print("tiny")
