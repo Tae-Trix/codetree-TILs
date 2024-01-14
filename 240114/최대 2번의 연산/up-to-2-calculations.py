@@ -5,7 +5,7 @@ if a%2==0:
         a=(a+1)/2
         print(int(a))
     elif a%2==0:
-        print(a)
+        print(int(a))
 elif a%2==1:
     a=(a+1)/2
     print(int(a))
