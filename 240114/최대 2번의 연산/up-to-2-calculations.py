@@ -4,6 +4,8 @@ if a%2==0:
     if a%2==1:
         a=(a+1)/2
         print(int(a))
+    elif a%2==0:
+        print(a)
 elif a%2==1:
     a=(a+1)/2
     print(int(a))
