@@ -4,4 +4,4 @@ b = int(arr[1])
 c = int(arr[2])
 mean = (a+b+c)/3
 print(a+b+c)
-print(f"{mean:.0f}")
+print(int(mean))
