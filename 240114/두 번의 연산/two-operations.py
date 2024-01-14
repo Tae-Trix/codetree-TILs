@@ -4,6 +4,7 @@ if a%2==1:
     if a%3==0:
         a = a/3
         print(int(a))
-elif a%3==0:
-    a = a/3
-    print(int(a))
+if a%2==0:
+    if a%3==0:
+        a = a/3
+        print(int(a))
