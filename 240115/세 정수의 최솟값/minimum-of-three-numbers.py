@@ -11,11 +11,11 @@ if b<c and b<a and c!=a:
 if c<a and c<b and a!=b:
     print(c)
 
-if a==b and a!=c and b!=c:
+if a<b and a<c and b==c:
     print(a)
-if b==c and b!=a and c!=a:
+if b<c and b<a and c==a:
     print(b)
-if c==a and c!=b and a!=b:
+if c<a and c<b and a==b:
     print(c)
 
 if a==b and b==c and c==a:
