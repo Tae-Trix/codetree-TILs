@@ -7,4 +7,4 @@ if c=='A':
         print(i, end = ' ')
 elif c=='D':
     for i in range(n, 1-1, -1):
-        print(i)
+        print(i, end = ' ')
