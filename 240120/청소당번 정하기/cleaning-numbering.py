@@ -10,16 +10,15 @@ for i in range(1,n):
         cnt_1 = cnt_1 + 1
     elif i%3==0:
         cnt_2 = cnt_2 + 1
-    elif i%12==0:
-        cnt_3 = cnt_3 + 1
-
-    if i%6==0:
+    
+    if (i%6==0) and (i%2==0):
         cnt_1 = cnt_1 - 1
         cnt_2 = cnt_2 + 1
-    elif i%24==0:
+
+    if (i%12==0) and (i%2==0):
         cnt_1 = cnt_1 - 1
         cnt_3 = cnt_3 + 1
-    elif i%36==0:
+    elif (i%12==0) and (i%3==0):
         cnt_2 = cnt_2 - 1
         cnt_3 = cnt_3 + 1
 
