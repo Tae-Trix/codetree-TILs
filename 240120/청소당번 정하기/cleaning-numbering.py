@@ -11,7 +11,7 @@ for i in range(1,n):
     elif i%3==0:
         cnt_2 = cnt_2 + 1
     
-    if (i%6==0) and (i%2==0):
+    if i%6==0:
         cnt_1 = cnt_1 - 1
         cnt_2 = cnt_2 + 1
 
