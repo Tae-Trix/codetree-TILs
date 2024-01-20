@@ -21,6 +21,9 @@ for i in range(1,n):
     elif (i%12==0) and (i%3==0):
         cnt_2 = cnt_2 - 1
         cnt_3 = cnt_3 + 1
+    elif (i%12==0) and (i%6==0):
+        cnt_2 = cnt_2 - 1
+        cnt_3 = cnt_3 + 1
 
 print(cnt_1, end = ' ')
 print(cnt_2, end = ' ')
