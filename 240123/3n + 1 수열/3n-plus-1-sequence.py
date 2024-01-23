@@ -10,4 +10,6 @@ while True:
         n = 3*n + 1
         if n==1:
             break
+    elif n==1:
+        break
 print(num)
