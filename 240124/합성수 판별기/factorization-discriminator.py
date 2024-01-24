@@ -1,4 +1,5 @@
 n = int(input())
+sum_num = False
 
 for i in range(2,n):
     if n%i==0:
