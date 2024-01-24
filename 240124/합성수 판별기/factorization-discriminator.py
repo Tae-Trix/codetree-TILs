@@ -1,12 +1,10 @@
 n = int(input())
 
-satisfied = True
+for i in range(2,n):
+    if n%i==0:
+        sum_num = True
 
-if n>1:
-    if n%1==0 and n%n==0:
-        satisfied = False
-
-if satisfied == False:
+if sum_num == True:
     print('C')
 else:
     print('N')
