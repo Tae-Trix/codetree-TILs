@@ -1,12 +1,12 @@
 n = int(input())
 
-satisfied = False
+satisfied = True
 
-if n>=1:
+if n>1:
     if n%1==0 and n%n==0:
-        satisfied = True
+        satisfied = False
 
-if satisfied == True:
+if satisfied == False:
     print('C')
 else:
     print('N')
